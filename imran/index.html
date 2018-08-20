@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Imran Pardhan</title> 
+    
+<!--stylesheet-->
+<link rel="stylesheet" type="text/css" href="imran.css">
+<!--googlefont-->
+<link href='https://fonts.googleapis.com/css?family=Cinzel:700,400' rel='stylesheet' type='text/css'>
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<!--external javascript-->
+<script type="text/javascript" src="imran.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <!--title-->
+<h1 id='name'>Imran Pardhan</h1>
+<p id='subtext'>Sociology student at the University of Toronto</p>
+    <!--form-->
+<button id='contact'>Contact</button>
+<form action="/cgi-sys/formmail.cgi" method="POST">
+<input type=hidden name="recipient" value="hello@imranpardhan.com"> 
+<input type=hidden name="subject" value="Siteground Test"> 
+<input type="name" name="name" placeholder="E-mail:">
+    <br><br>
+<textarea name="message" placeholder="Write your message here" >
+</textarea>
+<br><br>
+<input type="submit" value="Send E-mail" id="button">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>Portfolio</title>
+<!--stylesheet-->
+<link rel="stylesheet" type="text/css" href="portfolio.css">
+<!--fontawesome-->
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--googlefonts-->
+    
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<!--javascript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    
+    <!--navigation-->
+<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>    
+    
+<ul class="navbar-nav collapse navbar-collapse" id="collapsibleNavbar">
+  <li class="nav-item">
+    <a class="nav-link" href="#home">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#about">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#portfolio">Portfolio</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#contact">Contact</a>
+  </li>
+    </ul>
+</nav>
+    
+<div id="home">
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col"><h3>Jo's Web Design</h3></div>    
+    </div>
+    </div>
+</div>
+    
+    
+    <!-- About Section -->
+<div class="container-fluid" id="about">
+<div class="row">
+<div class="col-md-12"><h4>About Me</h4></div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<h5>Skills</h5>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>jQuery</li>
+<li>React</li>
+</ul>
+</div>   
+</div>
+</div>
+
+<!-- Portfolio Banner -->
+<div class="container-fluid" id="portfolio">    
+<div class="row">
+<div class="col-md-12"><h4>Portfolio</h4></div>
+</div>
+</div> 
+
+<!-- Portfolio Section -->
+<div class="container-fluid" id="samples">
+<div class="row">
+<div class="col-md-12">
+<h4>Portfolio</h4>
+<p>Links to past and current work projects. These are sites I've made on my own or with a team.</p>   
+</div>
+</div> 
+<div class="row">
+<div class="col-md-6"><img src="bird.jpg" id="preview"></div>
+<div class="col-md-6">
+<ul>
+<li class="link">Work Sample</li>
+<li class="link">Work Sample</li>
+<li class="link">Work Sample</li>
+<li class="link">Work Sample</li>
+</ul>    
+</div>
+</div>
+</div>
+    
+<!-- Contact -->
+<div class="container" id="contact">
+<div class="row">
+<div class="col-md-12"><h4>Contact</h4></div>
+</div> 
+<div class="row">
+<div class="col-md-12">
+<ul>
+<li>Toronto, ON</li>
+<li>E-mail</li>
+</ul>
+</div>    
+</div>
+</div>
+<script src='port.js'></script>
+</body>
+</html>

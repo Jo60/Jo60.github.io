@@ -1,0 +1,163 @@
+/*Navigation*/
+nav{  
+    
+}
+
+.social{
+display: inline;
+position: absolute;
+right: 20px;
+font-size: 20px;
+}
+
+.social li{
+display: inline;
+padding: 5px;
+}
+
+.social li a:hover{
+color: coral;
+}
+
+#home{
+background-image: url('cityline.jpg');
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+text-align: center;
+border-bottom: solid black 2px;
+}
+
+/* Main title */
+#home h3{
+background-color: ;
+color: aliceblue;
+position: relative;
+top: 300px;
+}
+
+#about{
+
+}
+
+#about h4{
+margin-top: 50px;
+}
+
+#about ul{
+text-align: center;
+}
+
+#about li{
+display: inline;
+padding: 0px 10px;
+}
+
+#portfolio{
+/*background-image: url('fallwalk.JPG');*/
+background-color: gray;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+height: 200px;
+width: 100%;
+}
+
+#portfolio h4{
+text-align: center;
+color: aliceblue;
+position: relative;
+top: 60px;
+font-size: 50px;
+}
+
+/*.samples{
+background-color: whitesmoke;
+border-bottom: solid 1px black;
+border-top: solid 1px black;
+margin-bottom: 5px;
+}*/
+
+#{
+text-align: center;
+}
+
+#links li{
+list-style: none;
+border: black dotted 1px;
+margin-bottom: 10px;
+padding: 5px;
+text-align: center;
+}
+
+.samples p{
+ text-align: center;   
+}
+
+/* Preview Window */
+#preview{
+width: 100%;
+height: 300px;
+margin: 1% 1%;
+border: solid 1px black;
+}
+
+.gallery{
+width: 95%;
+height: 180px;
+margin-bottom: 10px;
+border: outset gray 2px;
+}
+
+#contact img{
+width: 100%;
+height: 180px;
+}
+
+#contact ul{
+list-style: none;
+}
+
+.banner{
+background-color: gray;
+color: aliceblue;
+text-align: center;
+}
+
+footer{
+background-color: gainsboro;
+text-align: center;
+}
+
+
+/* Mobile View*/
+@media (max-width: 576px) { 
+    
+/* Main title */
+#home h3{
+font-size: 50px;
+}
+    
+
+/* Preview Window */
+#preview{
+display: none;        
+}
+
+.gallery{
+text-align: center;
+width: 90%;
+height: 180px;
+margin: 15px 5%;
+border: gray 5px outset; 
+}
+    
+
+
+
+
+}

@@ -1,0 +1,12 @@
+$(document).ready(function () {
+
+alert('pancake');
+
+$('#firstSite').hover(function(){
+	
+ $("#preview").attr("src","dwight.jpg");
+ 
+});
+
+
+});
