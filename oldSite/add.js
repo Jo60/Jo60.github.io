@@ -37,7 +37,9 @@ window.onscroll=testScroll
     });
   });
 
-var mq = window.matchMedia( "(min-width: 500px)" );
+alert('This site is a demo. Links and form do not work');
+
+/*var mq = window.matchMedia( "(min-width: 500px)" );
 
 if (mq.matches) {
  
@@ -57,6 +59,7 @@ $('.preview').hover(function() {
         height: "150px"
     }, 'slow');*/
 
+/*
 });
     
     
@@ -78,4 +81,4 @@ $('.preview').hover(function() {
 
 });
     
-}
+}*/

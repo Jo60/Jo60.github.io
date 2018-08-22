@@ -33,4 +33,6 @@ $('#ray').hover(function(){
 
 preview();    
     
+
+    
 });

@@ -46,6 +46,7 @@ color: #CEEAF7;
 
 #social i:hover{
 color: coral;
+cursor: not-allowed;
 }
 
 nav p{
@@ -88,6 +89,7 @@ display: none;
 position: fixed;
 top: 5px;
 right: 5px;
+cursor: not-allowed;
 }
 
 .fa-bars{
@@ -229,6 +231,10 @@ list-style: none;
 padding: 10px;
 }
 
+#examples li a{
+cursor: not-allowed;
+}
+
 
 /*form*/
 
@@ -261,6 +267,7 @@ background-color: #CEEAF7;
 border-radius: 6px;
 height: 20px;
 width: 250px;
+cursor: not-allowed;
 }
 
 input:active{
