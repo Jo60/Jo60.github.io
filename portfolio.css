@@ -53,7 +53,7 @@ font-family: 'Nothing You Could Do', cursive;
 background-color: ;
 color: aliceblue;
 position: relative;
-top: 300px;
+top: 400%;
 }
 
 /* Banner */
@@ -81,21 +81,19 @@ margin-top: 50px;
 
 #about ul{
 text-align: center;
-list-style: disc;
 }
 
 #about li{
 display: inline;
 padding: 0px 10px;
-list-style: disc;
 }
 
 #skills{
-list-style: disc;
+
 }
 
 #skills li{
-display: block;
+display: list-item;
 text-align: left;
 
 }
@@ -174,10 +172,10 @@ font-size: 17px;
 font-family: 'Montserrat', sans-serif;
 }
 
-#contact img{
+/*#contact img{
 width: 100%;
 height: 180px;
-}
+}*/
 
 #contact ul{
 list-style: none;
