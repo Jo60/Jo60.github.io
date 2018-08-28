@@ -37,7 +37,7 @@ window.onscroll=testScroll
     });
   });
 
-alert('This site is a demo. Links and form do not work');
+
 
 /*var mq = window.matchMedia( "(min-width: 500px)" );
 

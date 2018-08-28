@@ -1,10 +1,20 @@
 body{
-font-family: 'Abel', sans-serif;
+
 }
 
 /*Navigation*/
 nav{  
-    
+height: 40px;
+}
+
+.grayNav{
+background-color: ghostwhite;
+border-bottom: solid black 1px;
+}
+
+a.nav-link{
+color: coral;
+font-size: 16px;
 }
 
 .social{
@@ -23,13 +33,15 @@ padding: 5px;
 color: coral;
 }
 
+
+/*Top Image*/
 #home{
 background-image: url('cityline.jpg');
 background-size: cover;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
-height: 100%;
+min-height: 100%;
 width: 100%;
 text-align: center;
 border-bottom: solid black 2px;
@@ -37,11 +49,18 @@ border-bottom: solid black 2px;
 
 /* Main title */
 #home h3{
-font-family: 'Permanent Marker', cursive;
+font-family: 'Nothing You Could Do', cursive;   
 background-color: ;
 color: aliceblue;
 position: relative;
 top: 300px;
+}
+
+/* Banner */
+.banner{
+background-color: gray;
+color: aliceblue;
+text-align: center;
 }
 
 /*h3, h4, h5, h6*/
@@ -51,8 +70,9 @@ text-decoration: underline
 }
 
 #about{
-font-family: 'Abel', sans-serif;
+padding: 10px 10%;
 font-size: 17px;
+font-family: 'Montserrat', sans-serif;
 }
 
 #about h4{
@@ -61,21 +81,23 @@ margin-top: 50px;
 
 #about ul{
 text-align: center;
+list-style: disc;
 }
 
 #about li{
 display: inline;
 padding: 0px 10px;
+list-style: disc;
 }
 
 #skills{
-list-style: circle;
+list-style: disc;
 }
 
 #skills li{
 display: block;
 text-align: left;
-list-style: circle;
+
 }
 
 /* Portfolio Banner */
@@ -88,7 +110,7 @@ background-position: center;
 background-repeat: no-repeat;
 height: 200px;
 width: 100%;
-font-family: 'Abel', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 
 #portfolio h4{
@@ -100,25 +122,10 @@ font-size: 50px;
 }
 
 /* Portfolio Section */
-/*.samples{
-background-color: whitesmoke;
-border-bottom: solid 1px black;
-border-top: solid 1px black;
-margin-bottom: 5px;
-}*/
-
-#{
+.samples{
+font-size: 17px;
 text-align: center;
-}
-
-/* Examples */
-#links li{
-list-style: none;
-border: black dotted 1px;
-margin-bottom: 10px;
-padding: 5px;
-text-align: center;
-font-size: 15px;
+font-family: 'Montserrat', sans-serif;
 }
 
 .samples p{
@@ -133,16 +140,38 @@ margin: 1% 1%;
 border: solid 1px black;
 }
 
+/* Examples */
+#links li{
+list-style: none;
+border: black dotted 1px;
+margin-bottom: 10px;
+padding: 5px;
+text-align: center;
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.photos{
+margin: 0px 10%; 
+width: 100%;
+text-align: center;
+}
+
 .gallery{
-width: 95%;
+width: 80%;
 height: 180px;
 margin-bottom: 10px;
 border: outset gray 2px;
 }
 
+.gallery:hover{
+border: outset coral 2px;
+}
+
 #contact{
-font-family: 'Abel', sans-serif;
+padding: 10px 10%;
 font-size: 17px;
+font-family: 'Montserrat', sans-serif;
 }
 
 #contact img{
@@ -154,24 +183,47 @@ height: 180px;
 list-style: none;
 }
 
-.banner{
-background-color: gray;
-color: aliceblue;
-text-align: center;
+.button{
+background-color: aliceblue;
+border: solid black 1px;
+border-radius: 10px;
 }
 
+/* Footer */
 footer{
 background-color: gainsboro;
 text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-device-width: 1024px){
+#home{
+background-attachment: scroll;
+}
+    
 }
 
 
 /* Mobile View*/
 @media (max-width: 576px) { 
     
+#collapsibleNavbar{
+background-color: ghostwhite; 
+margin: -2% -5%;
+}
+    
+nav{
+background-color: ghostwhite;
+}    
+    
 /* Main title */
 #home h3{
 font-size: 50px;
+}
+    
+#about{
+
+
 }
     
 
@@ -179,10 +231,14 @@ font-size: 50px;
 #preview{
 display: none;        
 }
+    
+.photos{
+width: 100%;
+}
 
 .gallery{
-text-align: center;
-height: 95px; 
+height: 95px;
+width: 100%;
 }
 
 /* Examples */
@@ -191,6 +247,9 @@ width: 90%;
 margin: 3% 0%;
 }
 
+#contact{
 
+
+}
 
 }
