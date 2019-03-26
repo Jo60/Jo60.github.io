@@ -38,7 +38,7 @@ color: coral;
 #home{
 background-image: url('cityline.jpg');
 background-size: cover;
-background-attachment: inherit;
+background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 height: 100%;
