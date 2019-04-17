@@ -196,6 +196,11 @@ text-align: center;
 font-family: 'Montserrat', sans-serif;
 }
 
+
+.carousel{
+display: none;
+}
+
 @media only screen and (max-device-width: 1024px){
 #home{
 background-attachment: scroll;
@@ -204,18 +209,48 @@ background-attachment: scroll;
 }
 
 
-/* Mobile View*/
+								/* Mobile View*/
 @media (max-width: 576px) { 
     
+.carousel{
+display: block;
+height: 300px;
+}	
+	
+.caption{
+text-align: center;
+padding: 2%;
+}
+
+#links{
+display: none;
+}
 
 #collapsibleNavbar{
-background-color: ghostwhite; 
-margin: -2% -5%;
+background-color: ghostwhite;
+width: 100%;
+border: solid 1px black;
 }
     
 nav{
 background-color: ghostwhite;
+height: 50px;
 }    
+	
+/*Navigation*/
+nav{  
+
+}
+
+.navbar-toggler{
+
+}
+
+.navbar-toggler-icon{
+
+}
+	
+	
     
 /* Main title */
 #home h3{
@@ -235,9 +270,9 @@ font-size: 14px;
 #preview{
 display: none;        
 }
-    
-.photos{
-width: 100%;
+	
+.photos{ 
+width: 107%;
 }
 
 .gallery{
