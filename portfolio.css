@@ -201,9 +201,34 @@ font-family: 'Montserrat', sans-serif;
 display: none;
 }
 
-@media only screen and (max-device-width: 1024px){
+		
+							/*tablet view*/
+@media only screen and (max-device-width: 800px){
 #home{
 background-attachment: scroll;
+}
+	
+#links, #preview{
+display: none;
+}	
+	
+.carousel{
+display: block;
+height: 330px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+background-color: whitesmoke;
+}
+	
+.carousel img{
+width: 70%;
+height: 200px;
+}
+
+.caption{
+width: 70%;
+margin-left: 15%;
 }
     
 }
@@ -214,10 +239,21 @@ background-attachment: scroll;
     
 .carousel{
 display: block;
-height: 300px;
+height: 330px;
 }	
 	
+.carousel img{
+width: 100%;
+height: 200px;
+}
+	
+.carousel-control-prev, .carousel-control-next{
+background-color:hsla(9, 100%, 64%, 0);
+}
+	
 .caption{
+width: 100%;
+margin-left: 0%;
 text-align: center;
 padding: 2%;
 }
