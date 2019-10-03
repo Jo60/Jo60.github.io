@@ -11,7 +11,7 @@ $('#firstSite').hover(function(){
     
 $('#imran').hover(function(){
 	
- $("#preview").attr("src","imran.jpg");
+ $("#preview").attr("src","jon.jpg");
     });
     
 $('#vicrit').hover(function(){
