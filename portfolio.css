@@ -27,6 +27,8 @@ font-size: 20px;
 .social li{
 display: inline;
 padding: 5px;
+position: relative;
+top: 7px;
 }
 
 .social li a:hover{
