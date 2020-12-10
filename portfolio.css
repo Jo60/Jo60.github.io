@@ -353,7 +353,8 @@ width: 90%;
 margin: 3% 0%;
 }
 
-#contact{
+#contact ul li{
+padding: 0px;
 
 }
 

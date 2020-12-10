@@ -59,7 +59,10 @@ function changeNav(ev){
 window.onscroll=changeNav
     
     
-
+lightbox.option({
+      'maxWidth': 600,
+      'maxHeight': 600
+    })
  
 
 
