@@ -328,7 +328,10 @@ font-size: 14px;
 #links{
 font-size: 14px;	
 }
-    
+
+#about li{
+padding: 0px 1%;
+}
 
 /* Preview Window */
 #preview{
