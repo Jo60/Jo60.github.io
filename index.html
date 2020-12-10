@@ -12,12 +12,11 @@
 <!--Bootstrap-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 <!--lightbox-->
-<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+<link href="lightbox2-2.11.3/dist/css/lightbox.css" rel="stylesheet" />
 <!--favicon-->
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    
     <!--navigation-->
 <nav class="navbar navbar-expand-sm  navbar-light fixed-top">
 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -54,7 +53,6 @@
     </div>
 </div>
     
-    
 <!-- About Banner -->
 <div class="container-fluid banner">    
 <div class="row">
@@ -69,37 +67,54 @@
 </div>
 <div class="row">
 <div class="col-md-12">
-<p>Welcome to my webpage, thanks for looking at my Portfolio. I’m a freelance Front End Web Developer looking for full time employment. I studied both web design and development at George Brown College.  I’ve gained experience not only by freelancing but through internships as well, where I learned about industry standards and best practices. My best work to date was working with a development team to design a website for a proposed University (check out the link below <i class="fa fa-arrow-down"></i>) as a UI Designer.</p>
-    
-<p>Photography is another passion of mine. Took an introductory course and fell in love with it. I enjoy taking photos of Landscapes and Nature like the ones you’ll see below. In the past I’ve done product photography for a store’s shopify and facebook account.</p>
+<h5 class="subtitle">Introduction</h5>
+<p>Welcome to my Portfolio. I’m a freelance Front End Web Developer looking for full time employment not just in the Design feild but in Marketing and Ecommerce as well. I studied Frontend development at George Brown College. I’ve gained experience not only by freelancing but through internships as well where I learned about industry standards and best practices. My best work to date was working with a development team to design a website for a proposed University (check out the link below <i class="fa fa-arrow-down"></i>) as a UI Designer. </p>
+<p>I have Marketing experience. I did an internship as a Social Media coordinator and worked full time as a Digital Media Success Representative. I created content on client’s behalf to raise brand awareness and advertise services on Social Media. I used management platforms like Hootsuite and Later to schedule posts for optimal times. I’m familiar with some graphic design tools like Adobe Photoshop and illustrator to fix and edit photos, as well as Canva.</p>
+<p>Photography is another passion of mine. Took an introductory course and fell in love with it. I enjoy taking photos of Landscapes and Nature like the ones you’ll see below and on my Instagram. But Ive mainly done Product photography for Instagram and Shopify accounts.  Unlike most, product photography is detail oriented.  It doesn’t make use of filters or editing, it relies more on proper lighting and angles to accurately depict the merchandise for customers.<!-- For photography samples check of this <a href="gallery.html" target="_blank">gallery</a></p> -->
 </div>
 </div>
 <div class="row">
 <div class="col-md-12">
-<h5 class="subtitle">Stack & Skills</h5>
-<ul>
+<h5 class="subtitle">Stack</h5>
+<ul id="stack">
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
+<li>PHP</li>
 </ul>
 </div>   
 </div>
 <div class="row">
 <div class="col-md-12">
+<h5 class="subtitle">Skills</h5>
 <ul id="skills">
-<li>Capable of building webpages from scratch</li>
-<li>Adept with Bootstrap and jQuery</li>
-<li>Familiar with Adobe Photoshop and Illustrator</li>
-<li>Knowledgeable of Responsive Web Design principles</li>
-<li>Experience using Content Management Systems such as Joomla and Wordpress</li>
-<li>Mindful of web coding practices and requirements to maintain and troubleshoot web pages.</li>
-<li>Understanding of cross-browser compatibility issues</li>
-<li>Experience using Social Media Management Tools like Hootsuite</li>
+<li>Proficient with MicroSoft Office and Google Suite</li> 
+<li> Capable of building webpages from scratch (using Brackets, Dreamweaver, Sublime) </li> 
+<li> Adept with Bootstrap and jQuery </li> 
+<li> Familiar with Adobe Photoshop and Illustrator </li> 
+<li> Knowledgeable of Responsive Web Design principles </li> 
+<li> Experience using Content Management Systems such as Joomla and WordPress </li> 
+<li> Mindful of best coding practices </li> 
+<li> Understanding of cross-browser compatibility issues </li> 
+<li> Experience using Social Media Management Tools like Hootsuite and Later </li> 
+<li> SEO best practices </li> 
+<li> Familiar with Google AdWords and Analytics </li> 
 </ul>
 </div>    
 </div>
+<div class="row">
+<div class="col-md-12">
+<h5 class="subtitle">Experience</h5>
+<ul id="exp">
+<li><div class="highlight">2 years</div> - Front-end Wed Development</li> 
+<li><div class="highlight">8 years</div> - Customer Service</li>
+<li><div class="highlight">2 years</div> - Marketing</li> 
+<li><div class="highlight">1 year</div> - Content Creation</li> 
+<li><div class="highlight">1 year</div> - Photography</li> 
+</ul>
 </div>
-
+</div>
+</div>
 <!-- Portfolio Banner -->
 <div class="container-fluid banner">    
 <div class="row">
@@ -158,7 +173,7 @@
 <div class="col-md-6"><img src="main.jpg" id="preview"></div>
 <div class="col-md-6" id="links">
 <ul>
-<li id="firstSite">My First Site from 2016, it’s here to demonstrate how my skills have changes over time. The current site is built with Bootstrap and jQuery. <a href="oldSite/index.html" target="_blank">Link</a></li>
+<li id="firstSite">My First Site from 2016, it’s here to demonstrate how my skills have grown over time. The current site is built with Bootstrap and jQuery. <a href="oldSite/index.html" target="_blank">Link</a></li>
 <li id="imran">A contact form for a university student I coded from scratch. Responsive using CSS and used Javascript to toggle the form up and down. <a href="imran/index.html" target="_blank">Link</a></li>
 <li id="vicrit">A website built for a proposed university. As an UI/UX designer I contributed to the design of the site. Created the wireframes and coordinated with the development team. <a href="http://victoria-university.herokuapp.com" target="_blank">Link</a></li>
 <li id="ray">A website for a Toronto based Nutritionist. Built with Bootstrap to be completely responsive. <!--<a href="rays/index.html" target="_blank">Link</a>--></li>
@@ -174,14 +189,14 @@
 </div>
 </div> 
 <div class="row photos">
-<div class="col-4"><a href="#" data-featherlight="001.JPG"><img src="001.JPG" class="gallery" alt="toronto skyline at night"></a></div>
-<div class="col-4"><a href="#" data-featherlight="002.jpg"><img src="002.jpg" class="gallery" alt="Toronto City Centre"></a></div>
-<div class="col-4"><a href="#" data-featherlight="003.jpg"><img src="003.jpg" class="gallery" alt="Montreal winter"></a></div>
+<div class="col-4"><a href="001.jpg" data-lightbox="roadtrip"><img src="001.JPG" class="gallery" alt="toronto skyline at night"></a></div>
+<div class="col-4"><a a href="002.jpg" data-lightbox="roadtrip"><img src="002.jpg" class="gallery" alt="Toronto City Centre"></a></div>
+<div class="col-4"><a href="003.jpg" data-lightbox="roadtrip"><img src="003.jpg" class="gallery" alt="Montreal winter"></a></div>
 </div>
 <div class="row photos">
-<div class="col-4"><a href="#" data-featherlight="004.jpg"><img src="004.jpg" class="gallery" alt="niagara falls"></a></div>
-<div class="col-4"><a href="#" data-featherlight="005.JPG"><img src="005.JPG" class="gallery" alt="sunnybrook park in fall"></a></div>
-<div class="col-4"><a href="#" data-featherlight="006.jpg"><img src="006.jpg" class="gallery" alt="sunnybrook park in summer"></a></div>
+<div class="col-4"><a href="004.jpg" data-lightbox="roadtrip"><img src="004.jpg" class="gallery" alt="niagara falls"></a></div>
+<div class="col-4"><a href="005.jpg" data-lightbox="roadtrip"><img src="005.JPG" class="gallery" alt="sunnybrook park in fall"></a></div>
+<div class="col-4"><a href="006.jpg" data-lightbox="roadtrip"><img src="006.jpg" class="gallery" alt="sunnybrook park in summer"></a></div>
 </div>
 <div class="row">
 <div class="col-md-12"><p>Check out my <a href="https://www.instagram.com/jibreezie/" target="_blank"><button class="button">Instagram</button></a> for more</p></div>
@@ -201,7 +216,7 @@
 <div class="container" id="contact">
 <div class="row">
 <div class="col-sm-12">
-<p>I’m based in Toronto and available for full time employment.  Feel free to e-mail me to schedule an interview or get to know me better.</p>    
+<p>I’m based in Toronto and available for full time employment both remotely and in office. Feel free to e-mail me to schedule an interview to get to know me better. </p>    
 </div>
 <div class="col-sm-12">
 <ul>
@@ -211,13 +226,22 @@
 </div>    
 </div>
 </div>
-<footer><small>2018</small></footer>
+<footer><small>2020</small></footer>
     
     
 <!--External Scripts -->
     
-<script src="//code.jquery.com/jquery-latest.js"></script>
-<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>    
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="lightbox2-2.11.3/dist/js/lightbox.js"></script>   
+
+
+<script>
+    lightbox.option({
+      'maxWidth': 600,
+      'maxHeight': 600
+    })
+</script>
+
     
         
     

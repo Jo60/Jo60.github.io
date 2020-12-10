@@ -2,6 +2,7 @@ body{
 
 }
 
+
 /*Navigation*/
 nav{  
 height: 40px;
@@ -83,6 +84,7 @@ text-decoration: underline
 padding: 10px 10%;
 font-size: 17px;
 font-family: 'Montserrat', sans-serif;
+
 }
 
 #about h4{
@@ -106,6 +108,19 @@ padding: 0px 10px;
 display: list-item;
 text-align: left;
 
+}
+
+.highlight{
+color: green;
+display: inline;
+}
+
+#exp{
+text-align: left;
+}
+
+#exp li{
+display: block;
 }
 
 /* Portfolio Banner */
@@ -170,16 +185,23 @@ border: outset gray 2px;
 border: outset coral 2px;
 }
 
+.prodGallery{
+width: 60%;
+height: 180px;
+margin-bottom: 10px;
+border: outset gray 2px;   
+}
+
+prodGallery:hover{
+ border: outset coral 2px;   
+}
+
 #contact{
 padding: 10px 10%;
 font-size: 17px;
 font-family: 'Montserrat', sans-serif;
 }
 
-/*#contact img{
-width: 100%;
-height: 180px;
-}*/
 
 #contact ul{
 list-style: none;
@@ -197,6 +219,7 @@ footer{
 background-color: gainsboro;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
+
 }
 
 
