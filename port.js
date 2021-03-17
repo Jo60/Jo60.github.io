@@ -6,22 +6,24 @@ var preview = function(){
 
 $('#firstSite').hover(function(){
 	
- $("#preview").attr("src","firstSite.jpg");
+ $("#preview").attr("src","images/firstSite.jpg");
     });
     
 $('#imran').hover(function(){
 	
- $("#preview").attr("src","jon.jpg");
+ $("#preview").attr("src","images/jon.jpg");
     });
     
 $('#vicrit').hover(function(){
 	
- $("#preview").attr("src","victoria.jpg");
+ $("#preview").attr("src","images/victoria.jpg");
     });
     
-$('#ray').hover(function(){
+$('#tax').hover(function(){
 	
- $("#preview").attr("src","wip.png");
+ $("#preview").attr("src","images/taxShot.png");
+
+
  
 });
    

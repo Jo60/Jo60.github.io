@@ -39,7 +39,7 @@ color: coral;
 
 /*Top Image*/
 #home{
-background-image: url('cityline.jpg');
+background-image: url('images/cityline.jpg');
 background-size: cover;
 background-attachment: fixed;
 background-position: center;
@@ -110,10 +110,10 @@ text-align: left;
 
 }
 
-.highlight{
+span{
 color: green;
-display: inline;
 }
+
 
 #exp{
 text-align: left;
