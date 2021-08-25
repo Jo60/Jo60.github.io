@@ -337,7 +337,7 @@ nav{
 	
     
 /* Main title */
-#home h3{
+#home h1{
 font-size: 50px;
 }
     
@@ -351,6 +351,10 @@ font-size: 14px;
 
 #about li{
 padding: 0px 1%;
+}
+
+#stack li{
+display: block;   
 }
 
 /* Preview Window */
