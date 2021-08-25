@@ -95,35 +95,10 @@ margin-top: 50px;
 text-align: center;
 }
 
-
-span{
-text-decoration: underline;
-}
-
-
-#stack li{
+#about li{
 display: inline;
 padding: 0px 10px;
-font-size: 18px;
 }
-
-
-.gray{
-display: block
-}
-
-.blue{
-color: blue;
-}
-
-.red{
-color: red;
-}
-
-.green{
-color: green;
-}
-
 
 #skills{
 
@@ -133,6 +108,10 @@ color: green;
 display: list-item;
 text-align: left;
 
+}
+
+span{
+color: green;
 }
 
 
@@ -240,6 +219,7 @@ footer{
 background-color: gainsboro;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
+
 }
 
 
