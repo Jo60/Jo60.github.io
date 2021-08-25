@@ -353,8 +353,16 @@ font-size: 14px;
 padding: 0px 1%;
 }
 
+#stack{
+margin-left: -15%;    
+}
+
 #stack li{
 display: block;   
+}
+    
+#exp{
+margin-left: -15%;       
 }
 
 /* Preview Window */
@@ -375,6 +383,10 @@ width: 100%;
 #links li{
 width: 90%;
 margin: 3% 0%;
+}
+    
+#contact{
+padding: 10px 5%;   
 }
 
 #contact ul li{
