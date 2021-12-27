@@ -16,7 +16,7 @@ $('#imran').hover(function(){
     
 $('#vicrit').hover(function(){
 	
- $("#preview").attr("src","images/victoria.jpg");
+ $("#preview").attr("src","images/weatherShot.png");
     });
     
 $('#tax').hover(function(){

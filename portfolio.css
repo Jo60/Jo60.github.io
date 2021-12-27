@@ -102,9 +102,9 @@ color: forestgreen;
 }
 
 
-#stack li{
+.stack li{
 display: inline;
-padding: 0px 10px;
+padding: 0px 5px;
 font-size: 18px;
 }
 
@@ -171,6 +171,13 @@ font-family: 'Montserrat', sans-serif;
  text-align: center;   
 }
 
+.link{
+border: solid 1px;
+border-radius: 5px;
+padding: 2px;
+background-color: aliceblue;
+} 
+
 /* Preview Window */
 #preview{
 width: 100%;
@@ -224,11 +231,13 @@ prodGallery:hover{
 padding: 10px 10%;
 font-size: 17px;
 font-family: 'Montserrat', sans-serif;
+text-align: center;
 }
 
 
-#contact ul{
+#contact li{
 list-style: none;
+text-align: center;
 }
 
 .button{
@@ -354,20 +363,27 @@ font-size: 14px;
 
 #about li{
 padding: 0px 1%;
+display: block;
 }
 
-#stack{
+.stack{
 margin-left: -15%;    
 }
 
-#stack li{
-display: block;   
+.stack li{
+display: block;
+
 }
     
 #exp{
 margin-left: -15%;       
 }
 
+#skills li{
+margin: 0px 0px;   
+display: list-item;
+}    
+    
 /* Preview Window */
 #preview{
 display: none;        
