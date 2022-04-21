@@ -1,3 +1,4 @@
+
 body{
 background-color: whitesmoke;   
 width: 100%;
@@ -39,11 +40,9 @@ font-size: 15px;
 background-color: rgb(60, 42, 107);  
 }
 
-
 .social{
-height: 25px;
-width: 25px;
-margin: 0px 3px;
+font-size: 25px;
+margin: 0px 2px;
 }
 
 .carousel{
@@ -60,7 +59,6 @@ border-radius: 5px;
 color: black;
 font-family: 'Montserrat', sans-serif;
 }
-
 
 .header{
 background-color: rgb(60, 42, 107); /* PURPLE */
@@ -79,6 +77,10 @@ height: 40px;
 button{
 text-align: center;
 padding: 5px;
+}
+
+.container{
+padding-bottom: 69px;
 }
 
 /* Team Video */
@@ -110,14 +112,19 @@ text-align: center;
 margin: 10px 25%;
 }
 
+.buffer{
+height: 50px;
+}
+
 footer{
 text-align: center;
 font-weight: lighter;
 background-color: rgb(60, 42, 107); /* PURPLE */
 color: rgb(251,192,47); /*YELLOW */
 width: 100%;
+position: fixed;
+bottom: 0px;
 }
-
 
 /*Tablet view and highter */
 @media only screen and (min-width: 600px) {
@@ -132,13 +139,18 @@ font-size: 22px;
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+.carousel-inner img{
+height: 100px;
+}
+
+
 #banner p{
 font-size: 12px;    
 }
     
 .clientLogo{
-widows: 20px;
-height: 20px;
+width: 40px;
+height: 40px;
 }
     
 }

@@ -1,12 +1,10 @@
 $(document).ready(function () {
-
-/*alert('loaded');*/
     
 var preview = function(){
 
 $('#firstSite').hover(function(){
 	
- $("#preview").attr("src","images/firstSite.jpg");
+ $("#preview").attr("src","images/victoria.jpg");
     });
     
 $('#imran').hover(function(){
@@ -22,14 +20,10 @@ $('#vicrit').hover(function(){
 $('#tax').hover(function(){
 	
  $("#preview").attr("src","images/taxShot.png");
-
-
  
 });
-   
     
 };
-
 
 preview();    
     
@@ -65,7 +59,5 @@ lightbox.option({
       'maxWidth': 600,
       'maxHeight': 600
     })
- 
-
 
 });
