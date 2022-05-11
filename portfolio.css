@@ -38,9 +38,8 @@ background-size: cover;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
-height: 100%;
 width: 100%;
-max-height: 700px;
+height: 650px;
 text-align: center;
 border-bottom: solid black 2px;
 }
@@ -289,7 +288,11 @@ margin-left: 15%;
 @media (max-width: 450px) { 
     
 /* old width 576px  */
-
+    
+#home{
+height: 500px;       
+}    
+    
 #about{
 padding: 10px;    
 }
