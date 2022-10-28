@@ -35,29 +35,30 @@ var mq = window.matchMedia( "(min-width: 576px)" );
     
 if (mq.matches) {    
     
-var title = document.getElementById('title');
-function changeNav(ev){
-    if(window.pageYOffset>400){
+/*var title = document.getElementById('title');*/
+
+    function changeNav(ev){
+    if(window.pageYOffset>100){
     $("nav").addClass("grayNav");
 }
     else{
      $("nav").removeClass("grayNav");
-    };
-    
+    }
 };
-    
     $(".navbar-toggler-icon").click(function(){
         $("nav").addClass("bg-light");
     });
-
 }
 
-window.onscroll=changeNav
-    
+window.onscroll=changeNav;
     
 lightbox.option({
       'maxWidth': 600,
       'maxHeight': 600
     })
-
+    
+/*var picture = document.getElementsByTagName("img"); 
+    
+picture.addEventListener('contextmenu', event => event.preventDefault());*/
+    
 });

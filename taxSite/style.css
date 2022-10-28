@@ -10,9 +10,13 @@ border-top: none;
 border-bottom: none;
 }
 
-p{
-font-family: sans-serif;
+.col-6 p{
+text-align: center;
+}
 
+p{
+font-family: 'Libre Franklin', sans-serif;
+font-weight: 600;
 }
 
 #banner{
@@ -41,7 +45,7 @@ background-color: rgb(60, 42, 107);
 }
 
 .social{
-font-size: 25px;
+font-size: 20px;
 margin: 0px 2px;
 }
 
@@ -65,12 +69,21 @@ background-color: rgb(60, 42, 107); /* PURPLE */
 color: rgb(251,192,47); /*YELLOW */
 text-align: center;
 border-radius: 10px;
-font-family: 'Bebas Neue', cursive;
+font-family: 'Libre Franklin', sans-serif;
+}
+
+h3{
+font-family: 'Libre Franklin', sans-serif;
 }
 
 /*Client Logos */
+
+.imgrow{
+text-align: center;
+}
+
 .clientLogo{
-widows: 40px;
+width: 80px;
 height: 40px;
 }
 
@@ -81,6 +94,11 @@ padding: 5px;
 
 .container{
 padding-bottom: 69px;
+}
+
+.hero{
+width: 100%;
+height: 400px;
 }
 
 /* Team Video */
@@ -100,10 +118,9 @@ height: 100%;
 }
 
 .quote{
-border: black double 3px;
+border: outset;
 background-color: ghostwhite;
 padding: 10px;
-text-align: center;
 font-family: 'Montserrat', cursive;
 }
 
@@ -130,7 +147,7 @@ bottom: 0px;
 @media only screen and (min-width: 600px) {
 
 p{
-font-size: 22px;
+font-size: 18px;
 }  
     
 }
@@ -143,13 +160,17 @@ font-size: 22px;
 height: 100px;
 }
 
+.hero{
+width: 100%;
+height: 200px;
+}
 
 #banner p{
 font-size: 12px;    
 }
     
 .clientLogo{
-width: 40px;
+width: 50px;
 height: 40px;
 }
     

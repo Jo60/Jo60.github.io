@@ -1,4 +1,4 @@
-/*Navigation*/
+                    /*Navigation*/
 nav{  
 height: 40px;
 }
@@ -8,52 +8,76 @@ background-color: ghostwhite;
 border-bottom: solid black 1px;
 }
 
-a.nav-link{
-color: coral;
-font-size: 16px;
-}
-
-.social{
-display: inline;
-position: absolute;
-right: 20px;
-font-size: 20px;
-}
-
 .social li{
 display: inline;
 padding: 5px;
 position: relative;
 top: 7px;
+font-size: 20px;
+color: black;
 }
 
 .social li a:hover{
 color: coral;
 }
 
-/*Top Image*/
-#home{
-background-image: url('images/cityline.jpg');
-background-size: cover;
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
+#home {
+position:relative;
+text-align:center;
+background-color: LightBlue;
+color:white;
+}
+
+.display-1{
+height: 300px; 
+}
+
+.waves {
+position:relative;
 width: 100%;
-height: 650px;
-text-align: center;
-border-bottom: solid black 2px;
+height:15px;
+margin-bottom:-7px; 
+min-height:100px;
+max-height:150px;
+}
+            /* Animation */
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
 }
 
 /* Main title */
 #home h1{
 font-family: 'Nothing You Could Do', cursive;   
-background-color: ;
-color: aliceblue;
 position: relative;
 top: 100px;
+color: darkslategray;
 }
 
-/* Banner */
+/* Banners */
 .banner{
 color: aliceblue;
 text-align: center;
@@ -61,9 +85,6 @@ background-color: gray;
 height: 50px;
 width: 100%;
 font-family: 'Montserrat', sans-serif;
-}
-
-.banner h4{
 padding: 10px;
 }
 
@@ -79,17 +100,13 @@ font-size: 17px;
 font-family: 'Montserrat', sans-serif;
 }
 
-#about h4{
-margin-top: 50px;
-}
-
 #about ul{
 text-align: center;
 }
 
 span{
-text-decoration: underline;
-color: forestgreen;
+text-transform: capitalize;
+ font-weight: bold;
 }
 
 .stack li{
@@ -98,12 +115,8 @@ padding: 0px 5px;
 font-size: 18px;
 }
 
-/*.stack{
-font-size: 17px;
-}*/
-
 .gray{
-color: black;
+color: darkslategrey;
 }
 
 .blue{
@@ -123,40 +136,15 @@ display: list-item;
 text-align: left;
 }
 
-
-#exp{
-text-align: left;
-}
-
 #exp li{
 display: block;
 }
-
-/* Portfolio Banner */
-#portfolio{
-background-color: gray;
-height: 100px;
-width: 100%;
-font-family: 'Montserrat', sans-serif;
-}
-
-#portfolio h4{
-text-align: center;
-color: aliceblue;
-font-size: 50px;
-padding: 15px;
-}
-
-/* Portfolio Section */
+        /* Portfolio Section */
 #samples{
 font-size: 17px;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
 }
-
-/*#samples p{
- text-align: center;   
-}*/
 
 .link{
 border: solid 1px;
@@ -164,20 +152,19 @@ border-radius: 5px;
 padding: 2px;
 background-color: aliceblue;
 } 
-
-/* Preview Window */
+        /* Preview Window */
 #preview{
 width: 100%;
 height: 300px;
 margin: 1% 1%;
 border: solid 1px black;
 }
-
-/* Examples */
+        /* Examples */
 #links li{
+width: 100%;
 list-style: none;
 border: black dotted 1px;
-margin-bottom: 10px;
+margin: 10px 0px;
 padding: 5px;
 text-align: center;
 font-size: 15px;
@@ -185,11 +172,8 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .photos{
-margin: 0px 10%; 
 width: 100%;
-text-align: center;
-margin-left: 0px !important;
-margin-right: 0px !important;
+margin: 0px !important;
 }
 
 .pictures{
@@ -199,7 +183,7 @@ align-content: center;
 
 .gallery{
 width: 100%;
-height: 180px;
+height: 150px;
 margin-bottom: 5px;
 border: outset gray 2px;
 border-radius: 20px;
@@ -209,94 +193,56 @@ border-radius: 20px;
 border: outset coral 2px;
 }
 
-.prodGallery{
-width: 60%;
-height: 180px;
-margin-bottom: 10px;
-border: outset gray 2px;   
+#GalleryPage{
+background-color: aliceblue;    
 }
 
-prodGallery:hover{
- border: outset coral 2px;   
+.prodGallery{
+width: 70%;
+height: 190px;
+margin-bottom: 10px;
+border: double #4d1a00 4px;
+border-radius: 5px;
 }
 
 #contact{
 font-size: 17px;
 font-family: 'Montserrat', sans-serif;
-text-align: center;
 }
 
 #contact li{
 list-style: none;
 text-align: center;
-}
-
-.button{
-background-color: aliceblue;
-border: solid black 1px;
-border-radius: 10px;
-cursor: pointer;
-}
-
-/* Footer */
+}    
+            /* Footer */
 footer{
 background-color: gainsboro;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
 }
 
-
 .carousel{
 display: none;
 }
-
-
-							/*tablet view*/
-
-@media only screen and (max-device-width: 770px){
-#home{
-background-attachment: scroll;
-}
-	
-#links, #preview{
-display: none;
-}	
-	
-.carousel{
-display: block;
-height: 330px;
-}
-
-.carousel-control-prev, .carousel-control-next{
-background-color: whitesmoke;
-}
-	
-.carousel img{
-width: 70%;
-height: 200px;
-}
-
-.caption{
-width: 70%;
-margin-left: 15%;
-}
-    
-}
-
-
 								/* Mobile View*/
 @media (max-width: 450px) { 
     
-/* old width 576px  */
-    
+.waves {
+height:90px;
+min-height:40px;
+}
+
+.display-1{
+height: 300px;    
+}
+
 #home{
-height: 500px;       
+height: 400px;       
 }    
     
 #about{
 padding: 10px;    
 }
-    
     
 .carousel{
 display: block;
@@ -310,10 +256,8 @@ height: 200px;
 	
 .carousel-control-prev, .carousel-control-next{
 background-color:hsla(9, 100%, 64%, 0);
-background-color:hsla slategray;
-
 }
-	
+
 .caption{
 width: 100%;
 margin-left: 0%;
@@ -335,10 +279,9 @@ top: 2px;
     
 nav{
 background-color: ghostwhite;
-height: 50px;
-}    
-  
-/* Main title */
+height: 55px;
+}      
+        /* Main title */
 #home h1{
 font-size: 50px;
 }
@@ -346,11 +289,6 @@ font-size: 50px;
 #about,#samples,#contact{
 font-size: 14px;
 }
-
-/*#about li{
-padding: 0px 1%;
-
-}*/
 
 .stack{
 text-align: center;
@@ -364,14 +302,8 @@ list-style: none;
     
 #exp{
 margin-left: -15%;       
-}
-
-/*#skills li{
-margin: 0px 0px;   
-display: list-item;
-}    
-    
-/* Preview Window */
+}       
+        /* Preview Window */
 #preview{
 display: none;        
 }
@@ -382,20 +314,24 @@ width: 20%;
 margin: 0px 40%;
 text-align: center;
 } 
-    
-.col-3{
-padding: 0px 2px !important;     
-}
 
 .gallery{
-height: 95px;
+height: 90px;
 width: 100%;
 border-radius: 1px;
 border: none;
-/*margin-left: -10px;*/
+}
+    
+.prodGallery{
+width: 100%;
+height: 190px;
 }
 
-/* Examples */
+.col-3{
+padding: 2px;      
+}
+    
+        /* Examples */
 #links li{
 width: 90%;
 margin: 3% 0%;
@@ -407,7 +343,5 @@ padding: 10px 5%;
 
 #contact ul li{
 padding: 0px;
-
 }
-
 }
