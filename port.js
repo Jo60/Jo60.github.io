@@ -9,7 +9,7 @@ $('#firstSite').hover(function(){
     
 $('#imran').hover(function(){
 	
- $("#preview").attr("src","images/jon.jpg");
+ $("#preview").attr("src","images/yogaFigma.png");
     });
     
 $('#vicrit').hover(function(){
@@ -27,16 +27,10 @@ $('#tax').hover(function(){
 
 preview();    
     
- /*$("nav").window.pageYOffset>400(function(){
-        $("nav").animate({background-color: "red"},"slow");
-    });*/
-    
 var mq = window.matchMedia( "(min-width: 576px)" );
     
 if (mq.matches) {    
     
-/*var title = document.getElementById('title');*/
-
     function changeNav(ev){
     if(window.pageYOffset>100){
     $("nav").addClass("grayNav");
@@ -56,9 +50,5 @@ lightbox.option({
       'maxWidth': 600,
       'maxHeight': 600
     })
-    
-/*var picture = document.getElementsByTagName("img"); 
-    
-picture.addEventListener('contextmenu', event => event.preventDefault());*/
     
 });
