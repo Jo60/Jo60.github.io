@@ -4,22 +4,22 @@ var preview = function(){
 
 $('#firstSite').hover(function(){
 	
- $("#preview").attr("src","images/victoria.jpg");
+ $("#preview").attr("src","images/victoria.webp");
     });
     
 $('#imran').hover(function(){
 	
- $("#preview").attr("src","images/yogaFigma.png");
+ $("#preview").attr("src","images/yogaFigma.webp");
     });
     
 $('#vicrit').hover(function(){
 	
- $("#preview").attr("src","images/weatherShot.png");
+ $("#preview").attr("src","images/weatherShot.webp");
     });
     
 $('#tax').hover(function(){
 	
- $("#preview").attr("src","images/taxShot.png");
+ $("#preview").attr("src","images/taxShot.webp");
  
 });
     
