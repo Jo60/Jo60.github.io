@@ -8,13 +8,15 @@ background-color: ghostwhite;
 border-bottom: solid black 1px;
 }
 
+nav-link{
+color: black !important;
+}
+
 .social li{
 display: inline;
-padding: 5px;
 position: relative;
 top: 7px;
 font-size: 20px;
-color: black;
 }
 
 .social li a:hover{
@@ -26,10 +28,6 @@ position:relative;
 text-align:center;
 background-color: LightBlue;
 color:white;
-}
-
-.display-1{
-height: 300px; 
 }
 
 .waves {
@@ -68,26 +66,25 @@ max-height:150px;
     transform: translate3d(85px,0,0);
   }
 }
-/* Main title */
+    /* Main title */
 #home h1{
+height: 300px; 
 font-family: 'Nothing You Could Do', cursive;   
 position: relative;
 top: 100px;
 color: darkslategray;
+font-size: 90px;
 }
-
-/* Banners */
+    /* Banners */
 .banner{
 color: aliceblue;
 text-align: center;
 background-color: gray;
-height: 50px;
-width: 100%;
 font-family: 'Montserrat', sans-serif;
-padding: 10px;
+/*padding: 10px;
+height: 50px;*/
 }
-
-/*h3, h4, h5, h6*/
+    /*h3, h4, h5, h6*/
 .subtitle{
 text-align: center;
 text-decoration: underline
@@ -103,6 +100,11 @@ font-family: 'Montserrat', sans-serif;
 text-align: center;
 }
 
+a{
+color: darkblue;
+text-decoration: underline;
+}
+
 span{
 text-transform: capitalize;
 font-weight: bold;
@@ -114,20 +116,7 @@ padding: 0px 5px;
 font-size: 18px;
 }
 
-.gray{
-color: darkslategrey;
-}
-
-.blue{
-color: blue;
-}
-
-.red{
-color: red;
-}
-
 #skills li{
-display: list-item;
 text-align: left;
 }
 
@@ -146,6 +135,7 @@ border: solid 1px;
 border-radius: 5px;
 padding: 2px;
 background-color: aliceblue;
+color: darkblue;
 } 
         /* Preview Window */
 #preview{
@@ -166,14 +156,8 @@ font-size: 15px;
 font-family: 'Montserrat', sans-serif;
 }
 
-.galla{
-margin: 0px;
-text-align: center;
-}
-
 .pictures{
 text-align: center;
-align-content: center;
 }
 
 .gallery{
@@ -185,11 +169,12 @@ border-radius: 20px;
 }
 
 .gallery:hover{
-border: outset coral 2px;
+border: solid coral 2px;
+border-radius: 0px;
 }
-
+    /*Gallery Page*/
 #GalleryPage{
-background-color: aliceblue;    
+background-color: ghostwhite;    
 }
 
 .prodGallery{
@@ -198,6 +183,11 @@ height: 190px;
 margin-bottom: 10px;
 border: double #4d1a00 4px;
 border-radius: 5px;
+}
+
+.product{
+text-align: center;
+
 }
 
 #contact{
@@ -219,16 +209,12 @@ font-family: 'Montserrat', sans-serif;
 .carousel{
 display: none;
 }
-								/* Mobile View*/
-@media (max-width: 450px) { 
+								/* Tablet & Mobile View*/
+@media (max-width: 815px) { 
     
-.waves {
+.waves{
 height:90px;
 min-height:40px;
-}
-
-.display-1{
-height: 300px;    
 }
 
 #home{
@@ -242,6 +228,7 @@ padding: 10px;
 .carousel{
 display: block;
 height: 330px;
+max-width: 600px;
 }	
 	
 .carousel img{
@@ -326,17 +313,11 @@ height: 190px;
 padding: 2px !important;      
 }
     
-        /* Examples */
-#links li{
-width: 90%;
-margin: 3% 0%;
-}
-    
 #contact{
-padding: 10px 5%;   
+padding: 0px; 
 }
 
-#contact ul li{
-padding: 0px;
+#contact li{
+text-align: left;
 }
 }

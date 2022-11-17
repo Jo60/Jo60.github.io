@@ -16,11 +16,16 @@ text-align: justify;
 text-align: center
 }
 
-.col-8{
+.colom{
+border-left:  rgb(60, 42, 107) 2px groove;
+border-right:  rgb(60, 42, 107) 2px groove;       
+}
+
+/*.col-8{
 border: black 1px solid;
 border-top: none;
 border-bottom: none;
-}
+}*/
 
 .col-6 p{
 text-align: center;
@@ -115,9 +120,7 @@ letter-spacing: 1px;
 }
 
 .whit{
-background-color: ghostwhite;
-border-bottom: solid 1px rgb(60, 42, 107);
-border-top: solid 1px rgb(60, 42, 107);
+background-color: rgba(60, 42, 107,0.1);
 }
 
 .poster{
@@ -196,12 +199,16 @@ font-size: 12px;
 }
     
 .clientLogo{
-width: 50px;
-height: 40px;
+width: 100px;
+height: 50px;
 }
     
 .poster{
 padding-bottom: 10px;  
+}
+    
+.colom{
+border: none;     
 }
     
 }

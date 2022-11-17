@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Jo's Portfolio</title>
+<title>Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A portfoilio for a front end web developer">
+<meta name="keywords" content="Portfolio, Wed Developer, Toronto">
+<meta name="author" content="Jibril">
 <!--stylesheet-->
 <link rel="stylesheet" type="text/css" href="portfolio.css">
-<!--fontawesome-->
-<script src="https://kit.fontawesome.com/cf54db6ad1.js" crossorigin="anonymous"></script>
 <!--googlefonts-->
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Nothing+You+Could+Do" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Nothing+You+Could+Do&display=swap" rel="stylesheet"> 
 <!--Bootstrap-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap.min.css">
 <!--lightbox-->
-<link href="lightbox2-2.11.3/dist/css/lightbox.css" rel="stylesheet" />
+<link href="lightbox.css" rel="stylesheet" />
 <!--favicon-->
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -21,7 +22,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!--navigation-->
 <nav class="navbar navbar-expand-sm  navbar-light fixed-top">
-<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-label="Menu Toggle">
     <span class="navbar-toggler-icon"></span>
   </button>    
     
@@ -39,7 +40,7 @@
     <ul class="social">
     
 	<li>
-    <a href="https://www.instagram.com/jibreezie/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.instagram.com/jibreezie/" target="_blank" aria-label="A link to intsagram page"><i class="fab fa-instagram"></i></a>
   </li>
     <!--<li>
     <a href="https://codepen.io/Jo60/#" target="_blank"><i class="fa fa-codepen"></i></a>
@@ -48,12 +49,11 @@
 </nav>
     
 <div id="home">
-
     
     <div class="container-fluid">
     <div class="row">
 
-<div class="col"><h1 class="display-1">Jibril's Portfolio</h1></div>    
+<div class="col"><h1>Jibril's Portfolio</h1></div>    
     </div>
     </div>
 
@@ -77,26 +77,23 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 <!-- About Banner -->
 <div class="container-fluid banner">    
 <div class="row">
-<div class="col-md-12"><h4 id="aboutbanner">About Me</h4></div>
+<div class="col-12"><h2 id="aboutbanner">About Me</h2></div>
 </div>
 </div> 
 	
 	<!--about section-->
 <div class="container" id="about">
 <div class="row">
-<div class="col-md-12"></div>
-</div>
-<div class="row">
-<div class="col-md-12">
+<div class="col-12">
 <h5 class="subtitle">Introduction</h5>
     
 <p>I’m a freelance <span>Front-End Web Developer</span> looking to utilize my skills in a full-time position in the field of web development and design. I studied at George Brown College in 2017 where I learned Front-End web technologies such as HTML, CSS, JavaScript, jQuery, WordPress, React and Redux. I’m knowledgeable with SEO best practices and tools such as Google Analytics and AdSense.  I’ve familiar with RESTful APIs to create web applications and hosting services like Netlify and Bluehost.   </p>
     
-<p>I’ve studied UX Design at Juno College in 2021. There I learned usability testing, in-context research and how to create Personas and Mental Models from that research. As well as becoming proficient with the prototyping tool Figma. Additionally, I learned to do Heuristic analysis and Accessibility Audits to create sites that are accessible and easy to use for the widest possible range of users. On every project I work on I’m always sure the aspects I’m in control of are compliant with the Web Content Accessibility Guidelines (WCAG) and the Accessibility for Ontarians with Disabilities Act (AODA).</p>
+<p>I’ve studied <span>UX Design</span> at Juno College in 2021. There I learned usability testing, in-context research and how to create Personas and Mental Models from that research. As well as becoming proficient with the prototyping tool Figma. Additionally, I learned to do Heuristic analysis and Accessibility Audits to create sites that are accessible and easy to use for the widest possible range of users. On every project I work on I’m always sure the aspects I’m in control of are compliant with the Web Content Accessibility Guidelines (WCAG) and the Accessibility for Ontarians with Disabilities Act (AODA).</p>
     
 <p>I’ve gained experience not only by freelancing and with internships but through contract jobs as well. During these opportunities I’ve worked while adhering to industry standards and best practices. As a frontend web developer, I've built a website for a proposed university, creating the prototype using Bootstrap and custom CSS, since then I remade the site using React. Some of my freelance work also includes building a website for a Toronto Tax Firm from the ground up (check out the link below <i class="fa fa-arrow-down"></i>)) and improving the SEO and User experience of a Mississauga Construction Equipment Company’s WordPress site.</p> 
     
-<p><span>Photography</span> is another skill I have. Took an introductory course in college and fell in love with it. I enjoy taking photos of landscapes and city structures like the ones you’ll see below and on my <a href="https://www.instagram.com/jibreezie/" target="_blank">Instagram</a> account. Professionally I've done Product photography for Instagram and Shopify accounts for small businesses. Click <a href="gallery.html" target="_blank">here</a> to see a gallery of samples.</p>
+<p><span>Photography</span> is another skill I have. Took an introductory course in college and fell in love with it. I enjoy taking photos of landscapes and city structures like the ones you’ll see below and on my <a href="https://www.instagram.com/jibreezie/" target="_blank">Instagram</a> account. Professionally I've done Product photography for Instagram and Shopify accounts for small businesses.</p>
 </div> 
 </div>
 
@@ -106,13 +103,13 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 <div class="row justify-content-center">
 
 <ul class="stack">
-<li class="col-2 gray stack"><i class="u fab fa-html5">HTML</i></li>
-<li class="col-2 blue stack"><i class="u fab fa-css3">CSS</i></li>
-<li class="col-2 blue stack"><i class="u fab fa-bootstrap">Bootstrap</i></li>
+<li class="col-2 stack"><i class="u fab fa-html5">HTML</i></li>
+<li class="col-2 stack"><i class="u fab fa-css3">CSS</i></li>
+<li class="col-2 stack"><i class="u fab fa-bootstrap">Bootstrap</i></li>
 <!--<li class="blue"><i class="u fab fa-sass"></i> SASS</li> -->
-<li class="col-2 red stack"><i class="u fab fa-js-square">JavaScript</i></li>
-<li class="col-2 red stack"><i class="u fab fa-js-square">jQuery</i></li>
-<li class="col-2 red stack"><i class="u fab fa-react">React.js</i></li>
+<li class="col-2 stack"><i class="u fab fa-js-square">JavaScript</i></li>
+<li class="col-2 stack"><i class="u fab fa-js-square">jQuery</i></li>
+<li class="col-2 stack"><i class="u fab fa-react">React.js</i></li>
 
  </ul>
     </div>
@@ -132,14 +129,13 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
     </ul>
     </div>
 
-    
 <div class="row">
-<div class="col-md-12">
+<div class="col-12">
 <h5 class="subtitle">Skills</h5>
 <ul id="skills">
-<li>Knowledge of Web Content Accessibility Guidelines.</li>
+<li>Experience with both Microsoft and Apple systems.</li>
 <li>Proficient with MicroSoft Office and Google Suite.</li> 
-<li>Capable of building webpages from scratch (using Brackets, Notepad++ and Video Studio Code).</li> 
+<li>Capable of building a fully functional website using HTML, CSS and JavaScript without a website builder or content management system.</li> 
 <li>Knowledgeable of responsive web design principles.</li> 
 <li>Familiar with Content Management Systems such as Wix and WordPress.</li> 
 <li>Mindful of best coding practices.</li> 
@@ -155,7 +151,7 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 </div>    
 </div>
 <div class="row">
-<div class="col-md-12">
+<div class="col-12">
 <h5 class="subtitle">Experience</h5>
 <ul id="exp">
 <li><span>3 years</span> - Front-end Wed Development</li> 
@@ -170,19 +166,19 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 <!-- Portfolio Banner -->
 <div class="container-fluid banner">    
 <div class="row">
-<div class="col-md-12"><h4 id="portfoliobanner">Portfolio</h4></div>
+<div class="col-12"><h2 id="portfoliobanner">Portfolio</h2></div>
 </div>
 </div>
 
 <!-- Portfolio Section -->
 <div class="container" id="samples">
 <div class="row">
-<div class="col-md-12">
+<div class="col-12">
 <h4 class="subtitle">Samples of Work</h4>
 <p>Here are links to some of my past work projects.</p>   
 </div>
 </div> 
-
+<div class="row justify-content-center">
 <div class="carousel">
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -210,17 +206,16 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
   </div>
   
   <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev" aria-label="Last image">
     <span class="carousel-control-prev-icon"></span>
   </a>
-  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next" aria-label="Next Image">
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
 
 </div>
-	
-
+    </div>
 <div class="row">
 <div class="col-md-6"><img src="images/main.jpg" id="preview" alt="website screenshot"></div>
 <div class="col-md-6" id="links">
@@ -235,7 +230,7 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 
 <!--Photo gallery -->
 <div class="row">
-<div class="col-md-12">
+<div class="col-12">
 <h4 class="subtitle">Photography</h4>
 <p>Samples of some of my photography work. Click images to enlarge. For examples of product photos view this<a href="gallery.html" target="_blank"> gallery.</a></p>   
 </div>
@@ -245,41 +240,41 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 <div class="container pictures">
     
     <div class="row justify-content-center" oncontextmenu="return false">
-<div class="col-3"><a href="images/fallsEdited.jpg" data-lightbox="roadtrip"><img src="images/fallsEdited.jpg" class="gallery" alt="A waterfall bathed in a red glow"></a></div>
-<div class="col-3"><a href="images/002.jpg" data-lightbox="roadtrip"><img src="images/002.jpg" class="gallery" alt="Downtown Toronto"></a></div>
-<div class="col-3"><a href="images/021.JPG" data-lightbox="roadtrip"><img src="images/021.JPG" class="gallery" alt="Don Valley river"></a></div>
-<div class="col-3"><a href="images/fire.png" data-lightbox="roadtrip"><img src="images/fire.png" class="gallery" alt="a fire dancer"></a></div>
+<div class="col-3"><a href="images/fallsEdited.webp" data-lightbox="roadtrip"><img src="images/fallsEdited.webp" class="gallery" alt="A waterfall bathed in a red glow"></a></div>
+<div class="col-3"><a href="images/002.webp" data-lightbox="roadtrip"><img src="images/002.webp" class="gallery" alt="Downtown Toronto"></a></div>
+<div class="col-3"><a href="images/021.webp" data-lightbox="roadtrip"><img src="images/021.webp" class="gallery" alt="Don Valley river"></a></div>
+<div class="col-3"><a href="images/fire.webp" data-lightbox="roadtrip"><img src="images/fire.webp" class="gallery" alt="a fire dancer"></a></div>
 </div>
     
 <div class="row justify-content-center" oncontextmenu="return false">
     
-<div class="col-3"><a href="images/003.JPG" data-lightbox="roadtrip"><img src="images/003.JPG" class="gallery" alt="Montreal in the winter"></a></div>
+<div class="col-3"><a href="images/003.webp" data-lightbox="roadtrip"><img src="images/003.webp" class="gallery" alt="Montreal in the winter"></a></div>
     
-<div class="col-3"><a href="images/006.jpg" data-lightbox="roadtrip"><img src="images/006.jpg" class="gallery" alt="don valley trail"></a></div>
+<div class="col-3"><a href="images/006.webp" data-lightbox="roadtrip"><img src="images/006.webp" class="gallery" alt="don valley trail"></a></div>
     
-<div class="col-3"><a href="images/019.JPG" data-lightbox="roadtrip"><img src="images/019.JPG" class="gallery" alt="Brickworks pond on a summer day"></a></div>
-<div class="col-3"><a href="images/020.JPG" data-lightbox="roadtrip"><img src="images/020.JPG" class="gallery" alt="sunnybrook park in the fall"></a></div>
+<div class="col-3"><a href="images/019.webp" data-lightbox="roadtrip"><img src="images/019.webp" class="gallery" alt="Brickworks pond on a summer day"></a></div>
+<div class="col-3"><a href="images/020.webp" data-lightbox="roadtrip"><img src="images/020.webp" class="gallery" alt="sunnybrook park in the fall"></a></div>
 </div>
     
 <div class="row">
-<div class="col-md-12"><p>Check out my <a href="https://www.instagram.com/jibreezie/" target="_blank">Instagram</a> for more.</p></div>
+<div class="col-12"><p>Check out my <a href="https://www.instagram.com/jibreezie/" target="_blank">Instagram</a> for more.</p></div>
 </div>
     </div>
 <!-- Contact Banner -->
 <div class="container-fluid banner">    
 <div class="row">
-<div class="col-md-12"><h4>Contact</h4></div>
+<div class="col-12"><h2>Contact</h2></div>
 </div>
 </div> 
 <!-- Contact -->
-<div class="container" id="contact">
+<div class="container">
 <div class="row">
-<div class="col-sm-12">
+<div class="col-12">
 <p>I’m based in Toronto and looking for full time employment both remotely and in office. Feel free to email me to schedule an interview to get to know me better.</p>    
 </div>
     </div>
     <div class="row">
-<div class="col-sm-12">
+<div class="col-12" id="contact">
 <ul>
 <li><i class="fa fa-map-marker"></i> Located - Toronto, Ontario</li>
 <li><i class="fa fa-envelope"></i> Email - jo60_design@outlook.com</li>
@@ -290,22 +285,22 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 <footer><small>2021</small></footer>
 </body>
    
-<!--External Scripts -->
-
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script src="lightbox2-2.11.3/dist/js/lightbox.js"></script>     
-
-
-<!--bootstrap-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+                <!--External Scripts -->
 
 <!--jQuery-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"
-			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			  crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" async></script>
+<script src="lightbox.min.js" async></script>     
+
+<!--fontawesome-->
+<script src="https://kit.fontawesome.com/cf54db6ad1.js" crossorigin="anonymous" async></script>
+<!--bootstrap-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" async></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" async></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" async></script>
+
+
+    
+
 <!--custom Javascript -->
 <script src='port.js'></script>
 </html>
