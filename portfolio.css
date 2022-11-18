@@ -273,8 +273,8 @@ font-size: 14px;
 }
 
 .stack{
-text-align: center;
 margin: 0px;
+padding: 0px;
 }
 
 .stack li{

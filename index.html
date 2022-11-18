@@ -20,11 +20,12 @@
 </head>
     
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    
     <!--navigation-->
 <nav class="navbar navbar-expand-sm  navbar-light fixed-top">
-<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-label="Menu Toggle">
-    <span class="navbar-toggler-icon"></span>
-  </button>    
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>    
     
 <ul class="navbar-nav collapse navbar-collapse" id="collapsibleNavbar">
   <li class="nav-item">
@@ -38,7 +39,6 @@
   </li>
     </ul>
     <ul class="social">
-    
 	<li>
     <a href="https://www.instagram.com/jibreezie/" target="_blank" aria-label="A link to intsagram page"><i class="fab fa-instagram"></i></a>
   </li>
@@ -175,10 +175,15 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 <p>Here are links to some of my past work projects.</p>   
 </div>
 </div> 
+  
+        
+        
+    
+    
 <div class="row justify-content-center">
 <div class="carousel">
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
   
   <!-- The slideshow -->
   <div class="carousel-inner">
@@ -202,12 +207,17 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
     </div>
   </div>
   
+ 
+   
+    
   <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev" aria-label="Last image">
-    <span class="carousel-control-prev-icon"></span>
+     <a class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden"></span>
   </a>
-  <a class="carousel-control-next" href="#myCarousel" data-slide="next" aria-label="Next Image">
-    <span class="carousel-control-next-icon"></span>
+  <a class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden"></span>
   </a>
 </div>
 
@@ -237,20 +247,20 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 <div class="container pictures">
     
     <div class="row justify-content-center" oncontextmenu="return false">
-<div class="col-3"><a href="images/fallsEdited.webp" data-lightbox="roadtrip"><img src="images/fallsEdited.webp" class="gallery" alt="A waterfall bathed in a red glow"></a></div>
-<div class="col-3"><a href="images/002.webp" data-lightbox="roadtrip"><img src="images/002.webp" class="gallery" alt="Downtown Toronto"></a></div>
-<div class="col-3"><a href="images/021.webp" data-lightbox="roadtrip"><img src="images/021.webp" class="gallery" alt="Don Valley river"></a></div>
-<div class="col-3"><a href="images/fire.webp" data-lightbox="roadtrip"><img src="images/fire.webp" class="gallery" alt="a fire dancer"></a></div>
+<div class="col-3"><a href="images/fallsEdited.webp" data-lightbox="roadtrip"><img src="images/fallsEditedi.webp" class="gallery" alt="A waterfall bathed in a red glow"></a></div>
+<div class="col-3"><a href="images/002.webp" data-lightbox="roadtrip"><img src="images/002i.webp" class="gallery" alt="Downtown Toronto"></a></div>
+<div class="col-3"><a href="images/021.webp" data-lightbox="roadtrip"><img src="images/021i.webp" class="gallery" alt="Don Valley river"></a></div>
+<div class="col-3"><a href="images/fire.webp" data-lightbox="roadtrip"><img src="images/firei.webp" class="gallery" alt="a fire dancer"></a></div>
 </div>
     
 <div class="row justify-content-center" oncontextmenu="return false">
     
-<div class="col-3"><a href="images/003.webp" data-lightbox="roadtrip"><img src="images/003.webp" class="gallery" alt="Montreal in the winter"></a></div>
+<div class="col-3"><a href="images/003.webp" data-lightbox="roadtrip"><img src="images/003i.webp" class="gallery" alt="Montreal in the winter"></a></div>
     
-<div class="col-3"><a href="images/006.webp" data-lightbox="roadtrip"><img src="images/006.webp" class="gallery" alt="don valley trail"></a></div>
+<div class="col-3"><a href="images/006.webp" data-lightbox="roadtrip"><img src="images/006i.webp" class="gallery" alt="don valley trail"></a></div>
     
-<div class="col-3"><a href="images/019.webp" data-lightbox="roadtrip"><img src="images/019.webp" class="gallery" alt="Brickworks pond on a summer day"></a></div>
-<div class="col-3"><a href="images/020.webp" data-lightbox="roadtrip"><img src="images/020.webp" class="gallery" alt="sunnybrook park in the fall"></a></div>
+<div class="col-3"><a href="images/019.webp" data-lightbox="roadtrip"><img src="images/019i.webp" class="gallery" alt="Brickworks pond on a summer day"></a></div>
+<div class="col-3"><a href="images/020.webp" data-lightbox="roadtrip"><img src="images/020i.webp" class="gallery" alt="sunnybrook park in the fall"></a></div>
 </div>
     
 <div class="row">
@@ -290,12 +300,12 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 <script src="https://kit.fontawesome.com/cf54db6ad1.js" crossorigin="anonymous"></script>
 <!--bootstrap-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>-->
   
-<!-- JavaScript Bundle with Popper 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous" async></script>-->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous" async></script>
 
 <!--custom Javascript -->
 <script src='port.js'></script>
