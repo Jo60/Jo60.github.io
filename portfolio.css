@@ -26,10 +26,11 @@ color: coral;
 #home {
 position:relative;
 text-align:center;
-background-color: LightBlue;
+background-image: url('cool.gif');
 color:white;
+height: 400px;
 }
-
+/*
 .waves {
 position:relative;
 width: 100%;
@@ -37,8 +38,9 @@ height:15px;
 margin-bottom:-7px; 
 min-height:100px;
 max-height:150px;
-}
+}*/
             /* Animation */
+			/*
 .parallax > use {
   animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
 }
@@ -65,7 +67,7 @@ max-height:150px;
   100% { 
     transform: translate3d(85px,0,0);
   }
-}
+}*/
     /* Main title */
 #home h1{
 height: 300px; 
