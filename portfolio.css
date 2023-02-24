@@ -24,16 +24,13 @@ color: coral;
 }
 
 #home {
-position:relative;
 text-align:center;
 background-image: url('cool.gif');
-color:white;
 height: 400px;
 }
 
     /* Main title */
 #home h1{
-height: 300px; 
 font-family: 'Nothing You Could Do', cursive;   
 position: relative;
 top: 100px;
@@ -42,9 +39,9 @@ font-size: 90px;
 }
     /* Banners */
 .banner{
-color: aliceblue;
+color: #FFFFFF;
 text-align: center;
-background-color: gray;
+background-color: #2A4646; /* dark slate gray*/
 font-family: 'Montserrat', sans-serif;
 }
     /*h3, h4, h5, h6*/
@@ -64,7 +61,7 @@ text-align: center;
 }
 
 a{
-color: darkblue;
+color:  #2A4646; /* dark slate gray*/
 text-decoration: underline;
 }
 
@@ -98,7 +95,7 @@ border: solid 1px;
 border-radius: 5px;
 padding: 2px;
 background-color: aliceblue;
-color: darkblue;
+color:  #2A4646; /* dark slate gray*/
 } 
         /* Preview Window */
 #preview{
